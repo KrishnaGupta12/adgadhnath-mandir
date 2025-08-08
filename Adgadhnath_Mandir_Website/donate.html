@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>दान करें | अड़गड़नाथ महादेव मंदिर</title>
+    <meta name="description" content="अड़गड़नाथ महादेव मंदिर के लिए दान करें। मंदिर के विकास और सेवा कार्यों में योगदान दें।">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🕉️</text></svg>">
+</head>
+<body>
+<header>
+    <div class="spiritual-icon">🕉️</div>
+    <h1>अड़गड़नाथ महादेव मंदिर<br><span style="font-size: 0.7em;">Adgadhnath Mahadev Mandir</span></h1>
+    <p style="margin: 0.5rem 0; font-size: 1.1rem; opacity: 0.9;">सोहागी पहाड़, तहसील त्योंथर, रीवा (म.प्र.)</p>
+    <nav>
+        <a href="index.html">🏠 होम</a>
+        <a href="about.html">📖 मंदिर का इतिहास</a>
+        <a href="darshan.html">🕉️ दर्शन समय</a>
+        <a href="festivals.html">🎉 त्योहार</a>
+        <a href="gallery.html">📸 गैलरी</a>
+        <a href="contact.html">📞 संपर्क करें</a>
+        <a href="donate.html" style="background: rgba(255,255,255,0.2);">💝 दान करें</a>
+    </nav>
+</header>
+
+<main>
+    <div class="content-section">
+        <h2>💝 दान और सेवा</h2>
+        
+        <div class="donation-section">
+            <h3>🙏 भगवान शिव की सेवा में योगदान</h3>
+            <p style="font-size: 1.2rem; color: #ff6b35; font-weight: 600;">
+                "दानं पुण्यं प्रशस्तत्वं सर्वेषां जीवमात्रकम्"
+            </p>
+            <p class="english">Donation is virtue and beneficial for all living beings</p>
+            <p>आपका योगदान मंदिर के विकास, सेवा कार्यों और धर्म के प्रचार-प्रसार में सहायक होगा।</p>
+        </div>
+
+        <div class="card">
+            <h3>💰 दान राशि चुनें</h3>
+            <p>कृपया अपनी श्रद्धा और सामर्थ्य के अनुसार दान राशि चुनें:</p>
+            
+            <div class="donation-amount">
+                <div class="amount-btn" onclick="selectAmount(51)">₹ 51</div>
+                <div class="amount-btn" onclick="selectAmount(101)">₹ 101</div>
+                <div class="amount-btn" onclick="selectAmount(251)">₹ 251</div>
+                <div class="amount-btn" onclick="selectAmount(501)">₹ 501</div>
+                <div class="amount-btn" onclick="selectAmount(1001)">₹ 1,001</div>
+                <div class="amount-btn" onclick="selectAmount(2501)">₹ 2,501</div>
+                <div class="amount-btn" onclick="selectAmount(5001)">₹ 5,001</div>
+                <div class="amount-btn" onclick="selectAmount(11001)">₹ 11,001</div>
+            </div>
+            
+            <div style="margin: 2rem 0;">
+                <label for="customAmount" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">या अपनी इच्छानुसार राशि दर्ज करें:</label>
+                <input type="number" id="customAmount" placeholder="राशि दर्ज करें..." style="width: 100%; padding: 1rem; border: 2px solid #ff9933; border-radius: 8px; font-size: 1.1rem; text-align: center;">
+            </div>
+            
+            <button class="btn" onclick="proceedToDonate()" style="font-size: 1.2rem; padding: 1rem 3rem;">
+                💝 दान करें / Donate Now
+            </button>
+            
+            <p style="text-align: center; margin-top: 1rem; font-size: 0.9rem; opacity: 0.7;">
+                (सुरक्षित ऑनलाइन पेमेंट के माध्यम से)
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🎯 दान के उपयोग क्षेत्र</h3>
+            <p>आपका दान निम्नलिखित कार्यों में उपयोग होता है:</p>
+            
+            <div class="card-grid">
+                <div class="festival-card">
+                    <div class="festival-name">🏛️ मंदिर निर्माण</div>
+                    <p>मंदिर का जीर्णोद्धार, सुंदरीकरण और नई संरचनाओं का निर्माण</p>
+                </div>
+                
+                <div class="festival-card">
+                    <div class="festival-name">🕯️ नित्य पूजा</div>
+                    <p>भगवान शिव की नित्य पूजा-अर्चना, आरती और विशेष अनुष्ठान</p>
+                </div>
+                
+                <div class="festival-card">
+                    <div class="festival-name">🍯 प्रसाद वितरण</div>
+                    <p>भक्तों को प्रसाद वितरण और विशेष अवसरों पर भोजन व्यवस्था</p>
+                </div>
+                
+                <div class="festival-card">
+                    <div class="festival-name">🏨 धर्मशाला</div>
+                    <p>श्रद्धालुओं के लिए आवास की व्यवस्था और सुविधाओं का विकास</p>
+                </div>
+                
+                <div class="festival-card">
+                    <div class="festival-name">🌳 वृक्षारोपण</div>
+                    <p>मंदिर परिसर में वृक्षारोपण और पर्यावरण संरक्षण</p>
+                </div>
+                
+                <div class="festival-card">
+                    <div class="festival-name">💡 विद्युत व्यवस्था</div>
+                    <p>मंदिर की रोशनी, ध्वनि व्यवस्था और सुरक्षा संबंधी सुविधाएं</p>
+                </div>
+                
+                <div class="festival-card">
+                    <div class="festival-name">🚰 जल व्यवस्था</div>
+                    <p>पीने के पानी की व्यवस्था और स्वच्छता संबंधी कार्य</p>
+                </div>
+                
+                <div class="festival-card">
+                    <div class="festival-name">📚 धार्मिक शिक्षा</div>
+                    <p>धार्मिक ग्रंथों का प्रकाशन और आध्यात्मिक शिक्षा का प्रसार</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>🏦 अन्य दान विकल्प</h3>
+            
+            <div class="card-grid">
+                <div class="festival-card">
+                    <div class="festival-name">🏧 बैंक ट्रांसफर</div>
+                    <p><strong>खाता नाम:</strong> अड़गड़नाथ महादेव मंदिर ट्रस्ट</p>
+                    <p><strong>बैंक:</strong> [बैंक का नाम]</p>
+                    <p><strong>खाता संख्या:</strong> XXXXXXXXXXXXXXXXX</p>
+                    <p><strong>IFSC कोड:</strong> XXXXXXXXXXXX</p>
+                </div>
+                
+                <div class="festival-card">
+                    <div class="festival-name">📱 UPI पेमेंट</div>
+                    <p><strong>UPI ID:</strong> adgadhnathmandir@upi</p>
+                    <p><strong>Google Pay:</strong> +91-XXXXXXXXXX</p>
+                    <p><strong>PhonePe:</strong> +91-XXXXXXXXXX</p>
+                    <p><strong>Paytm:</strong> +91-XXXXXXXXXX</p>
+                </div>
+                
+                <div class="festival-card">
+                    <div class="festival-name">💸 चेक/डीडी</div>
+                    <p><strong>अनुकूल:</strong> अड़गड़नाथ महादेव मंदिर ट्रस्ट</p>
+                    <p><strong>पता:</strong> सोहागी पहाड़, त्योंथर, रीवा (म.प्र.)</p>
+                    <p>कृपया चेक के पीछे अपना नाम और पता लिखें</p>
+                </div>
+                
+                <div class="festival-card">
+                    <div class="festival-name">💰 नकद दान</div>
+                    <p>मंदिर में आकर सीधे नकद दान कर सकते हैं</p>
+                    <p><strong>रसीद:</strong> हर दान की रसीद दी जाती है</p>
+                    <p><strong>समय:</strong> सुबह 6 बजे से रात 9 बजे तक</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>🎁 विशेष दान योजनाएं</h3>
+            
+            <div class="card-grid">
+                <div class="festival-card">
+                    <div class="festival-name">🌸 पुष्प सेवा</div>
+                    <p><strong>मासिक:</strong> ₹ 1,100</p>
+                    <p>एक महीने तक भगवान शिव को फूल चढ़ाने की सेवा</p>
+                </div>
+                
+                <div class="festival-card">
+                    <div class="festival-name">🕯️ दीप सेवा</div>
+                    <p><strong>मासिक:</strong> ₹ 2,100</p>
+                    <p>एक महीने तक नित्य दीप प्रज्वलन की सेवा</p>
+                </div>
+                
+                <div class="festival-card">
+                    <div class="festival-name">🥛 अभिषेक सेवा</div>
+                    <p><strong>वार्षिक:</strong> ₹ 11,000</p>
+                    <p>एक वर्ष तक नित्य दूध अभिषेक की सेवा</p>
+                </div>
+                
+                <div class="festival-card">
+                    <div class="festival-name">🍯 अन्न सेवा</div>
+                    <p><strong>वार्षिक:</strong> ₹ 51,000</p>
+                    <p>एक वर्ष तक प्रसाद और भोजन वितरण की सेवा</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="background: linear-gradient(135deg, #fff9e6, #f0f8e6);">
+            <h3>📜 दान की महिमा</h3>
+            <p style="text-align: center; font-size: 1.1rem; color: #ff6b35; font-weight: 600;">
+                "दातव्यमिति यद्दानं दीयते अनुपकारिणे।<br>
+                देशे काले च पात्रे च तद्दानं सात्त्विकं स्मृतम्॥"
+            </p>
+            <p class="english" style="text-align: center; margin: 1rem 0;">
+                "The gift which is given without expectation of return, at the proper time and place, and to a worthy person is considered to be in the mode of goodness."
+            </p>
+            
+            <div style="margin-top: 2rem;">
+                <h4 style="color: #138808;">🌟 दान के लाभ:</h4>
+                <ul style="list-style: none; padding-left: 0;">
+                    <li>🕉️ भगवान शिव की कृपा और आशीर्वाद</li>
+                    <li>🙏 पाप कर्मों का नाश</li>
+                    <li>💰 धन और संपत्ति में वृद्धि</li>
+                    <li>🏥 स्वास्थ्य और दीर्घायु</li>
+                    <li>👨‍👩‍👧‍👦 पारिवारिक सुख-शांति</li>
+                    <li>🎯 मनोकामनाओं की पूर्ति</li>
+                    <li>🌅 अगले जन्म में उत्तम गति</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card" style="text-align: center; background: linear-gradient(135deg, #ffe6e6, #fff0e6);">
+            <h3>🙏 धन्यवाद</h3>
+            <p style="font-size: 1.2rem; color: #ff6b35; font-weight: 600;">
+                आपके दान से भगवान शिव की सेवा निरंतर चलती रहेगी
+            </p>
+            <p>प्रत्येक दान की रसीद दी जाती है। आपका नाम और योगदान मंदिर के रिकॉर्ड में सुरक्षित रखा जाता है।</p>
+            <p class="english">Every donation is receipted. Your name and contribution are securely maintained in temple records.</p>
+            
+            <div style="margin-top: 2rem;">
+                <p><strong>📞 दान संबंधी पूछताछ:</strong> +91-XXXXXXXXXX</p>
+                <p><strong>📧 ईमेल:</strong> donation.adgadhnath@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div style="margin-bottom: 1rem;">
+        <p>🕉️ ॐ नमः शिवाय 🕉️</p>
+        <p>हर हर महादेव | जय भोलेनाथ</p>
+    </div>
+    <p>© 2025 अड़गड़नाथ महादेव मंदिर | सोहागी पहाड़, तहसील त्योंथर, रीवा (म.प्र.) 486226</p>
+    <p>📧 Email: adgadhnath.mandir@gmail.com | 📱 Mobile: +91-XXXXXXXXXX</p>
+    <div style="margin-top: 1rem; font-size: 0.9rem; opacity: 0.8;">
+        <p>निर्मित भक्तों के सेवा भाव से | Built with devotion for the service of devotees</p>
+    </div>
+</footer>
+
+<script>
+let selectedAmount = 0;
+
+function selectAmount(amount) {
+    selectedAmount = amount;
+    
+    // Remove previous selection
+    document.querySelectorAll('.amount-btn').forEach(btn => {
+        btn.classList.remove('selected');
+    });
+    
+    // Add selection to clicked button
+    event.target.classList.add('selected');
+    
+    // Clear custom amount
+    document.getElementById('customAmount').value = '';
+}
+
+function proceedToDonate() {
+    let amount = selectedAmount;
+    const customAmount = document.getElementById('customAmount').value;
+    
+    if (customAmount && customAmount > 0) {
+        amount = parseInt(customAmount);
+    }
+    
+    if (amount <= 0) {
+        alert('कृपया दान राशि चुनें या दर्ज करें।\nPlease select or enter donation amount.');
+        return;
+    }
+    
+    // This is a placeholder for actual payment integration
+    alert(`🙏 धन्यवाद!\n\nआपकी दान राशि: ₹${amount}\n\nवर्तमान में यह एक डेमो वेबसाइट है। वास्तविक दान के लिए कृपया मंदिर से संपर्क करें।\n\n📞 +91-XXXXXXXXXX\n\n🕉️ भगवान शिव आपको आशीर्वाद दें 🕉️`);
+}
+
+// Handle custom amount input
+document.getElementById('customAmount').addEventListener('input', function() {
+    if (this.value) {
+        // Remove selection from amount buttons
+        document.querySelectorAll('.amount-btn').forEach(btn => {
+            btn.classList.remove('selected');
+        });
+        selectedAmount = 0;
+    }
+});
+</script>
+</body>
+</html>

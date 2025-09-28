@@ -1,0 +1,17 @@
+{
+  "name": "adgadhnath-mandir-backend",
+  "version": "1.0.0",
+  "description": "Backend for Adgadhnath Mahadev Mandir website contact form",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Adgadhnath Mandir",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "mysql2": "^3.15.1",
+    "nodemailer": "^6.10.1"
+  }
+}
